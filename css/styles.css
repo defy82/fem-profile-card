@@ -1,0 +1,92 @@
+/* html {
+} */
+
+body {
+  background-color: teal;
+  text-align: center;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: -35% 220%, 130% -100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    }
+
+.bubble-image {
+  width: 100%;
+}
+
+.card-top {
+  border-radius: 10px;
+  background-color: white;
+  /* border: 3px; */
+  border-style: outset;
+  width: 25%;
+  height: 400px;
+  margin: 160px auto;
+}
+
+.info {
+  position: relative;
+  bottom: 48px;
+}
+.profile-image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.name {
+  display: inline;
+}
+
+.age {
+  color: grey;
+  display: inline;
+}
+
+.city {
+  font-family: 'Shippori Mincho B1', serif;
+  color: grey;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.stats {
+  font-family: 'Shippori Mincho B1', serif;
+  display: inline-block;
+  width: 25%;
+  margin-top: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.context {
+  color: grey;
+  font-size: 0.7em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px auto;
+}
+
+p{
+  margin: 5px auto;
+}
+
+hr {
+  margin: 25px auto;
+  border: 2px 0 0 0;
+  color: grey;
+}
+
+
+/* .attribution a {
+    color: hsl(228, 45%, 44%);
+    } */
